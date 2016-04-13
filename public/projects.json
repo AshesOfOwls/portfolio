@@ -3,13 +3,41 @@
     "type": "project",
     "id": 1,
     "attributes": {
-      "name": "Shapeshift"
+      "name": "jQuery.Shapeshift",
+      "description": "Take control over your layout grid system.",
+      "repo": ""
     }
   },{
     "type": "project",
     "id": 2,
     "attributes": {
-      "name": "Pikka"
+      "name": "jQuery.Tacky",
+      "description": "Stick around for more information",
+      "repo": ""
+    }
+  },{
+    "type": "project",
+    "id": 3,
+    "attributes": {
+      "name": "jQuery.Gantt",
+      "description": "I ain't got time to write this description",
+      "repo": ""
+    }
+  },{
+    "type": "project",
+    "id": 4,
+    "attributes": {
+      "name": "jQuery.Pikit",
+      "description": "Put a picture on it.",
+      "repo": ""
+    }
+  },{
+    "type": "project",
+    "id": 4,
+    "attributes": {
+      "name": "Coffeescript jQuery Plugin Template",
+      "description": "Make more things.",
+      "repo": ""
     }
   }]
 }
