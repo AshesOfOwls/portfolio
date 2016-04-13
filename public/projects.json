@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "type": "project",
+    "id": 1,
+    "attributes": {
+      "name": "Shapeshift"
+    }
+  },{
+    "type": "project",
+    "id": 2,
+    "attributes": {
+      "name": "Pikka"
+    }
+  }]
+}
