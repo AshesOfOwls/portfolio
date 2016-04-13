@@ -1,0 +1,48 @@
+a {
+  color: #333;
+  text-decoration: none;
+
+  &.active,
+  &:hover {
+    color: #EA43F9;
+  }
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  padding: 30px;
+  min-height: 100%;
+}
+
+header {
+  border-bottom: 1px solid rgba(#333, 0.2);
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+
+  h1 {
+    flex: 0 0 auto;
+    font-family: "Dancing Script";
+    font-size: 32px;
+  }
+
+  nav {
+    align-items: flex-end;
+    display: flex;
+    flex: 1 1 auto;
+    font-family: "Alegreya Sans";
+    font-size: 13px;
+    justify-content: flex-end;
+    text-transform: uppercase;
+
+    a:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
