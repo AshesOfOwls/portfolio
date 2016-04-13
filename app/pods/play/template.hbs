@@ -1,3 +1,11 @@
-These are the things I do for fun.
-
-{{outlet}}
+{{#each projects as |project|}}
+  <section class="project">
+    <h3>{{project.name}}</h3>
+    <div>
+      {{project.description}}
+      {{project.type}}
+    </div>
+  </section>
+{{else}}
+  I need to play more
+{{/each}}

@@ -1,5 +1,9 @@
-Here are my projects.
-
-{{#each model as |project|}}
-  {{project.name}}
+{{log projects.length}}
+{{#each projects as |project|}}
+  <section class="project">
+    <h3>{{project.name}}</h3>
+    <div>
+      {{project.description}}
+    </div>
+  </section>
 {{/each}}

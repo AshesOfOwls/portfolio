@@ -5,7 +5,8 @@
     "attributes": {
       "name": "jQuery.Shapeshift",
       "description": "Take control over your layout grid system.",
-      "repo": ""
+      "repo": "",
+      "type": "work"
     }
   },{
     "type": "project",
@@ -13,7 +14,8 @@
     "attributes": {
       "name": "jQuery.Tacky",
       "description": "Stick around for more information",
-      "repo": ""
+      "repo": "",
+      "type": "work"
     }
   },{
     "type": "project",
@@ -21,7 +23,8 @@
     "attributes": {
       "name": "jQuery.Gantt",
       "description": "I ain't got time to write this description",
-      "repo": ""
+      "repo": "",
+      "type": "work"
     }
   },{
     "type": "project",
@@ -29,7 +32,8 @@
     "attributes": {
       "name": "jQuery.Pikit",
       "description": "Put a picture on it.",
-      "repo": ""
+      "repo": "",
+      "type": "work"
     }
   },{
     "type": "project",
@@ -37,7 +41,8 @@
     "attributes": {
       "name": "Coffeescript jQuery Plugin Template",
       "description": "Make more things.",
-      "repo": ""
+      "repo": "",
+      "type": "work"
     }
   }]
 }
