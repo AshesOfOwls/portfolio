@@ -1,0 +1,44 @@
+.projects-previewBlock {
+  display: flex;
+
+  &:not(:last-child) {
+    border-bottom: 1px dashed rgba(#333, .2);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  &-links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+
+    .fa-github {
+      font-size: 32px;
+    }
+  }
+
+  &-linksRepo {
+    margin-bottom: 2px;
+  }
+
+  &-linksDemo {
+    border-top: 1px solid #DDD;
+    font-size: 9px;
+    padding-top: 3px;
+    text-transform: uppercase;
+  }
+
+  &-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+  }
+
+  &-description {
+    color: #AAA;
+    font-size: 12px;
+  }
+}

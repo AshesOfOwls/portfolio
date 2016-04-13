@@ -4,8 +4,9 @@
     "id": 1,
     "attributes": {
       "name": "jQuery.Shapeshift",
-      "description": "Take control over your layout grid system.",
-      "repo": "",
+      "description": "A jQuery plugin to create dynamic grid layouts.",
+      "repoLink": "https://github.com/McPants/jquery.shapeshift",
+      "demoLink": "http://mcpants.github.io/jquery.shapeshift/",
       "type": "work"
     }
   },{
@@ -13,26 +14,18 @@
     "id": 2,
     "attributes": {
       "name": "jQuery.Tacky",
-      "description": "Stick around for more information",
-      "repo": "",
+      "description": "Take your nav and stick it up your page.",
+      "repoLink": "https://github.com/McPants/jquery.tacky",
+      "demoLink": "http://mcpants.github.io/jquery.tacky/",
       "type": "work"
     }
   },{
     "type": "project",
     "id": 3,
     "attributes": {
-      "name": "jQuery.Gantt",
-      "description": "I ain't got time to write this description",
-      "repo": "",
-      "type": "work"
-    }
-  },{
-    "type": "project",
-    "id": 4,
-    "attributes": {
       "name": "jQuery.Pikit",
       "description": "Put a picture on it.",
-      "repo": "",
+      "repoLink": "https://github.com/McPants/jquery.pikit",
       "type": "work"
     }
   },{
@@ -41,7 +34,7 @@
     "attributes": {
       "name": "Coffeescript jQuery Plugin Template",
       "description": "Make more things.",
-      "repo": "",
+      "repoLink": "https://github.com/McPants/jQuery-Coffeescript-Plugin-Template",
       "type": "work"
     }
   }]

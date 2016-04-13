@@ -1,0 +1,14 @@
+<div class="projects-previewBlock-links">
+  <a href="{{model.repoLink}}" class="projects-previewBlock-linksRepo">
+    <i class="fa fa-github" aria-hidden="true"></i>
+  </a>
+
+  {{#if model.demoLink}}
+    <a href="{{model.demoLink}}" class="projects-previewBlock-linksDemo">Demo</a>
+  {{/if}}
+</div>
+
+<div class='projects-previewBlock-content'>
+  <div class="projects-previewBlock-title">{{model.name}}</div>
+  <div class="projects-previewBlock-description">{{model.description}}</div>
+</div>
