@@ -1,9 +1,10 @@
-{{log projects.length}}
-{{#each projects as |project|}}
-  <section class="project">
-    <h3>{{project.name}}</h3>
-    <div>
-      {{project.description}}
-    </div>
-  </section>
-{{/each}}
+<div class="work">
+  {{#each projects as |project|}}
+    <section class="project">
+      <h3><a href="http://www.github.com/mcpants"><i class="fa fa-github" aria-hidden="true"></i></a> {{project.name}}</h3>
+      <div>
+        {{project.description}}
+      </div>
+    </section>
+  {{/each}}
+</div>

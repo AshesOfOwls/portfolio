@@ -1,0 +1,19 @@
+a {
+  color: $pink;
+  text-decoration: none;
+  transition: .2s all;
+
+  &:visited {
+    color: $purple;
+  }
+
+  &.active,
+  &:hover {
+    color: $pink2;
+  }
+}
+
+p {
+  line-height: 110%;
+  margin-bottom: 20px;
+}
