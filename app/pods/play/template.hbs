@@ -1,4 +1,6 @@
 <div class="play">
+  {{twitch-box}}
+
   {{#each projects as |project|}}
     <section class="project">
       <h3>{{project.name}}</h3>
@@ -7,7 +9,5 @@
         {{project.type}}
       </div>
     </section>
-  {{else}}
-    I need to play more
   {{/each}}
 </div>
